@@ -1,0 +1,133 @@
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-top-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 80px;
+}
+.nav-left-container{
+    display: flex;
+    align-items: center;
+}
+.nav-tel-container{
+    margin-left: 50px;
+}
+.nav-tel-container > a{
+    color: #000000;
+    padding: 0 30px 0 0;
+    font-weight: 700;
+}
+
+.nav-search-bar{
+    width: 800px;
+    padding: 7px 0 7px 5px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #57646e;
+    cursor: pointer;
+}
+
+.nav-auth-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.user-icon-link{
+    display: flex;
+    align-items: center;
+    color: #03132c;
+    margin-right: 35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.cart-icon-link{
+    display: flex;
+    align-items: center;
+    color: #03132c;
+}
+
+.user-icon{
+    font-size: 28px;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: #03132c;
+}
+
+.shopping-cart-icon{
+    font-size: 28px;
+    color: #03132c;
+}
+
+.nav-links-container{
+    background-color: #03132c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+}
+.nav-link:hover{
+    background-color: #ffffff;
+    color: #03132c;
+}
+
+.nav-links-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 48px;
+    background-color: #ffffff;
+    z-index: 100;
+    width: 200px;
+}
+.open{
+    display: block;
+}
+
+.dropdown-link {
+    color: #03132c;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-link:hover {
+    background-color: #e0e1e2;
+}
+
+.nav-link:hover .dropdown-menu {
+    display: block;
+}
